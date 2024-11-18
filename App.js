@@ -1,21 +1,27 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { View, Text } from 'react-native'
+import React from 'react'
+import {AppNavigator} from './src/Navigation/AppNavigator'
+import US from './src/Screen/US';
+import UE from './src/Screen/UE';
+import UC from './src/Screen/UC';
+import UR from './src/Screen/UR';
+import UM from './src/Screen/UM';
+import UCall from './src/Screen/UCall';
+import ULE from './src/Screen/ULE';
 
-export default function App() {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+
+    //  <AppNavigator/>
+    // <US/>
+    // <UE/>
+    // <UC/>
+    // <UR/>
+    // <UM/>
+  //  < UCall/>
+  <ULE/>
+    
+  )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App
