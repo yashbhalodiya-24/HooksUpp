@@ -1,6 +1,5 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import {AppNavigator} from './src/Navigation/AppNavigator'
 import US from './src/Screen/US';
 import UE from './src/Screen/UE';
 import UC from './src/Screen/UC';
@@ -12,14 +11,13 @@ import ULE from './src/Screen/ULE';
 const App = () => {
   return (
 
-    //  <AppNavigator/>
     // <US/>
     // <UE/>
     // <UC/>
     // <UR/>
-    // <UM/>
+    <UM/>
   //  < UCall/>
-  <ULE/>
+  // <ULE/>
     
   )
 }
