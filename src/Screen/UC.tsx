@@ -1,3 +1,9 @@
+/*
+1. useContext :-
+      -> Allows you to access context values in a component without prop drilling.
+      -> Useful for global states, such as theme or authentication data.
+*/
+
 import { View, Text } from 'react-native'
 import React, { createContext, useContext } from 'react'
 

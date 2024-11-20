@@ -1,3 +1,9 @@
+/*
+4. useRef :-
+      -> Provides a way to persist values between renders without causing re-renders.
+      -> Commonly used to access and manipulate DOM elements or store mutable values.
+*/
+
 import { View, Text, TextInput, Button, TouchableOpacity } from 'react-native'
 import React, { useRef } from 'react';
 

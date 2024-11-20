@@ -1,3 +1,10 @@
+/*
+1. useState :-
+      -> Used to add state to a functional component.
+      -> Allows you to declare state variables and provides a function to update them.
+*/
+
+
 import { View, Text, Button, TouchableOpacity } from 'react-native'
 import React, { useEffect, useState } from 'react'
 

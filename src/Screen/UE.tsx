@@ -1,3 +1,9 @@
+/* 
+3. useEffect :-
+        -> Used to perform side effects in a component, such as fetching data or updating the document title.
+        -> It runs after the render and can optionally clean up after itself.
+*/
+
 import { View, Text } from 'react-native'
 import React, { useEffect, useState } from 'react'
 

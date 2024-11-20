@@ -1,3 +1,9 @@
+/*
+5. useMemo :-
+      -> Memoizes expensive calculations, improving performance by recalculating only when dependencies change.
+*/
+
+
 import { View, Text, TouchableOpacity } from 'react-native'
 import React, { useMemo, useState } from 'react'
 
