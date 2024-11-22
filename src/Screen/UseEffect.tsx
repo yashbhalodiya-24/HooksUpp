@@ -7,7 +7,7 @@
 import { View, Text } from 'react-native'
 import React, { useEffect, useState } from 'react'
 
-const UE = () => {
+const UseEffect = () => {
   const [secound,setSecound] = useState(0);
   useEffect(()=>{
     const interval = setInterval (()=>setSecound((s)=>s+1),1000);
@@ -20,4 +20,4 @@ const UE = () => {
   )
 }
 
-export default UE
+export default UseEffect

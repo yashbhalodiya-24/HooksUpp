@@ -1,27 +1,27 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import US from './src/Screen/US';
-import UE from './src/Screen/UE';
-import UC from './src/Screen/UC';
-import UR from './src/Screen/UR';
-import UM from './src/Screen/UM';
-import UCall from './src/Screen/UCall';
-import ULE from './src/Screen/ULE';
-import UIH from './src/Screen/UIH';
-// import UIE from './src/Screen/UIE';
+import UseState from './src/Screen/UseState';
+import UseEffect from './src/Screen/UseEffect';
+import UseContext from './src/Screen/UseContext';
+import UseRef from './src/Screen/UseRef';
+import UseMemo from './src/Screen/UseMemo';
+import UseCallback from './src/Screen/UseCallback';
+import UseLayoutEffect from './src/Screen/UseLayoutEffect';
+import UseImperativeHandle from './src/Screen/UseImperativeHandle';
+import UseInsertionEffect from './src/Screen/UseInsertionEffect';
 
 const App = () => {
   return (
 
-    // <US/>
-    // <UE/>
-    // <UC/>
-    // <UR/>
-    // <UM/>
-  //  < UCall/>
-  // <ULE/>
-  <UIH/>
-  // <UIE/>
+    // <UseState/>
+    // <UseEffect/>
+    // <UseContext/>
+    // <UseRef/>
+    // <UseMemo/>
+   < UseCallback/>
+  // <UseLayoutEffect/>
+  // <UseImperativeHandle/>
+  // <UseInsertionEffect/>
     
   )
 }

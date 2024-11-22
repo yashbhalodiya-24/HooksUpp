@@ -9,7 +9,7 @@ const calculateFactorial = (n) => {
   return n * calculateFactorial(n - 1);
 };
 
-const UM = () => {
+const UseMemo = () => {
   const [number, setNumber] = useState(0);
   const [input, setInput] = useState('');
 
@@ -79,4 +79,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default UM;
+export default UseMemo;

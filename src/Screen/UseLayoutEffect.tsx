@@ -7,7 +7,7 @@
 import { View, Text } from 'react-native'
 import React, { useLayoutEffect, useState } from 'react'
 
-const ULE = () => {
+const UseLayoutEffect = () => {
   const [width,setWidth] =useState(0);
   useLayoutEffect(()=>{
     setWidth(200);
@@ -17,4 +17,4 @@ const ULE = () => {
   )
   }
 
-export default ULE
+export default UseLayoutEffect

@@ -8,7 +8,7 @@
 import { View, Text, Button, TouchableOpacity } from 'react-native'
 import React, { useEffect, useState } from 'react'
 
-const US = () => {
+const UseState = () => {
   const [count,setCount]=useState(0);
   return (
     <View style={{marginTop:400}}>
@@ -20,4 +20,4 @@ const US = () => {
   )
 }
 
-export default US
+export default UseState

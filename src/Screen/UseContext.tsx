@@ -9,7 +9,7 @@ import React, { createContext, useContext } from 'react'
 
 const ThemeContext = createContext('light');
 
-const UC = () => {
+const UseContext = () => {
   const Theme = useContext(ThemeContext);
   return  <Text style ={{textAlign:'center',fontSize:20,color:'#000'}}>Theme : {Theme}</Text>;
 
@@ -20,4 +20,4 @@ const UC = () => {
   )
 }
        
-export default UC
+export default UseContext

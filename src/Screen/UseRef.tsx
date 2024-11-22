@@ -7,7 +7,7 @@
 import { View, Text, TextInput, Button, TouchableOpacity } from 'react-native'
 import React, { useRef } from 'react';
 
-const UR = () => {
+const UseRef = () => {
   const inputRef = useRef(null);
   return (
     <View style={{marginTop:400}}>
@@ -19,4 +19,4 @@ const UR = () => {
   )
 }
 
-export default UR
+export default UseRef

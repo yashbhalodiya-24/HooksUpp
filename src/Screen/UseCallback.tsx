@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
-const UCall = () => {
+const UseCallback = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
 
@@ -58,4 +58,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default UCall;
+export default UseCallback;

@@ -27,7 +27,7 @@ const CustomInput = forwardRef((props, ref) => {
   );
 });
 
-const UIH = () => {
+const UseImperativeHandle = () => {
   const inputRef = useRef();
 
   return (
@@ -81,4 +81,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default UIH;
+export default UseImperativeHandle;
