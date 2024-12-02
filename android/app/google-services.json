@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "125464514522",
+    "project_id": "hookupp-87959",
+    "storage_bucket": "hookupp-87959.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125464514522:android:9fa73b51e0aadd480dbae3",
+        "android_client_info": {
+          "package_name": "com.hooksupp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBireSafhDDejN9GCQ7mQxzVshR0lhBns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
